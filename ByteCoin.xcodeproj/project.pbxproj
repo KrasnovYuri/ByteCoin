@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		921A701C2B1230FB00327537 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921A701B2B1230FB00327537 /* CoinManager.swift */; };
 		92A050432B1205510015A050 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A050422B1205510015A050 /* AppDelegate.swift */; };
 		92A050452B1205510015A050 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A050442B1205510015A050 /* SceneDelegate.swift */; };
 		92A050472B1205510015A050 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A050462B1205510015A050 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		921A701B2B1230FB00327537 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
 		92A0503F2B1205510015A050 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A050422B1205510015A050 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92A050442B1205510015A050 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921A70192B1230B600327537 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92A050482B1205510015A050 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		921A701A2B1230D700327537 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		921A701E2B12310F00327537 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				921A701B2B1230FB00327537 /* CoinManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		92A050362B1205510015A050 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +84,9 @@
 				92A050422B1205510015A050 /* AppDelegate.swift */,
 				92A050442B1205510015A050 /* SceneDelegate.swift */,
 				92A050462B1205510015A050 /* ViewController.swift */,
-				92A050482B1205510015A050 /* Main.storyboard */,
+				921A701E2B12310F00327537 /* Model */,
+				921A701A2B1230D700327537 /* Controller */,
+				921A70192B1230B600327537 /* View */,
 				92A0504B2B1205530015A050 /* Assets.xcassets */,
 				92A0504D2B1205530015A050 /* LaunchScreen.storyboard */,
 				92A050502B1205530015A050 /* Info.plist */,
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921A701C2B1230FB00327537 /* CoinManager.swift in Sources */,
 				92A050472B1205510015A050 /* ViewController.swift in Sources */,
 				92A050432B1205510015A050 /* AppDelegate.swift in Sources */,
 				92A050452B1205510015A050 /* SceneDelegate.swift in Sources */,
