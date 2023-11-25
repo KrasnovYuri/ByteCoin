@@ -43,6 +43,7 @@ extension ViewController: UIPickerViewDelegate {
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print(coinManager.currencyArray[row])
+        let selectCurrency = coinManager.currencyArray[row]
+        coinManager.getCoinPrice(for: selectCurrency)
     }
 }
