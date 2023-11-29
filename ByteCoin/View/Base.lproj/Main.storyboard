@@ -76,6 +76,11 @@
                                             <constraint firstAttribute="bottom" secondItem="y3y-Mu-41V" secondAttribute="bottom" id="QJl-MD-sgW"/>
                                             <constraint firstItem="y3y-Mu-41V" firstAttribute="top" secondItem="mJe-Kj-HoO" secondAttribute="top" id="eId-1a-13O"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="40"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
                             </stackView>
